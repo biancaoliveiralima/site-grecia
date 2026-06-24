@@ -280,5 +280,91 @@ footer h1{
     line-height: 1.7;
 }
 
+@media (max-width: 768px) {
+
+    #topo {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .texto-topo h1 {
+        font-size: 40px;
+    }
+
+    .texto-topo p {
+        font-size: 22px;
+    }
+
+    #topo img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #esquerda,
+    #direita {
+        width: 100%;
+        margin: 0;
+    }
+
+    #direita h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #direita p {
+        font-size: 18px;
+    }
+
+    #text-sobre,
+    #img-sobre,
+    #img-curiosidade {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .turistico,
+    .prato {
+        width: 100%;
+    }
+
+    .turistico img,
+    .prato img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .turistico p,
+    .prato p {
+        width: 100%;
+    }
+
+    footer h1 {
+        font-size: 35px;
+        margin: 30px 15px;
+        text-align: center;
+    }
+
+    .info strong {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+}
+
 
 
